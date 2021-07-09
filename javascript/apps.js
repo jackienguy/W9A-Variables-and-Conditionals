@@ -1,7 +1,9 @@
 var userAge = [19, 23, 19, 42, 17, 45, 32, 24];
 var is_subscribed = [true, true, false, false, true, false, false, false];
 
-for (var counter = 0; counter < 8; counter++) {
+var arrayLength = userAge.length;
+
+for (var counter = 0; counter < arrayLength; counter++) {
     console.log(userAge[counter]);
     console.log(is_subscribed[counter]);
     if (userAge[counter] < 18) {
